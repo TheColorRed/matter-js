@@ -6,7 +6,7 @@
 * @class Demo
 */
 
-(function() {
+(function () {
     var sourceLinkRoot = 'https://github.com/liabru/matter-js/blob/master/examples';
 
     var demo = MatterTools.Demo.create({
@@ -287,6 +287,12 @@
                 id: 'wreckingBall',
                 init: Example.wreckingBall,
                 sourceLink: sourceLinkRoot + '/wreckingBall.js'
+            },
+            {
+                name: 'Gravity Scale',
+                id: 'gravityScale',
+                init: Example.gravityScale,
+                sourceLink: sourceLinkRoot + '/gravityScale.js'
             }
         ]
     });
